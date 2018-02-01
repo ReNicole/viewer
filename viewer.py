@@ -54,7 +54,7 @@ class Viewer(Screen):
 		window = Window(self, "Demo")
 		window.setPosition((15, 15))
 		window.setLayout(GroupLayout())
-		# mesh I/O, [something wrong]
+		
 
 		Label(window, "Mesh IO", "sans-bold")
 		valid = [("obj", "3D model format")]
